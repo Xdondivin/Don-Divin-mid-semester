@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(88, 86, 81);
+}
+
+header {
+    background-color: rgba(73, 87, 87, 0.747);
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: skyblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: green;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.member, .gallery {
+    margin: 20px;
+}
+
+.member img, .gallery img {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #064550cc;
+}
